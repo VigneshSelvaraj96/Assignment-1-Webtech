@@ -78,15 +78,15 @@ h1{
 .signoff{
     width: 700px;
     text-align: center;
-    margin-left: 200px;
-    font-size: 11.5px;
+    margin-left: 210px;
+    font-size: 11px;
     margin-bottom: 0px;
 }
 
 .sociallogo{
     object-fit: cover;
     justify-content: space-evenly;
-    margin-left: 485px;
+    margin-left: 497px;
     display: inline-block;
     margin-top: 10px;
 }
