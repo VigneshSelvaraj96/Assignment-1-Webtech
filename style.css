@@ -26,7 +26,7 @@ span{
 {
     display: inline-block;
     font-size: 13px;
-    color: black;
+    color: grey;
     justify-content: space-evenly;
     margin-bottom: 30px; 
 }
@@ -78,9 +78,10 @@ h1{
 .signoff{
     width: 700px;
     text-align: center;
-    margin-left: 210px;
-    font-size: 11px;
+    margin-left: 205px;
+    font-size: 10px;
     margin-bottom: 0px;
+    color: rgb(146, 145, 145);
 }
 
 .sociallogo{
@@ -88,7 +89,7 @@ h1{
     justify-content: space-evenly;
     margin-left: 497px;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 17px;
 }
 
 a:link{
