@@ -1,9 +1,21 @@
+
+body{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
 .topcontainer
 {
     margin: auto;
-    width: 100%;
-    display: block;
+    display: flex;
     margin-bottom: 80px;
+    align-items: center;
+    width: 1000px;
+    align-self: center;
+    flex-direction: column;
 }
 
 
@@ -12,8 +24,8 @@
     width: 700px;
     text-align: center;
     border-style: solid;
-    margin-left: 200px;
-    margin-right: 200px;
+    align-self:center;
+
 }
 
 
@@ -28,7 +40,8 @@ span{
     font-size: 13px;
     color: grey;
     justify-content: space-evenly;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
+    text-decoration: none; 
 }
 
 
@@ -41,10 +54,15 @@ h1{
     font-size: x-large;
 }
 
+.bottomcontent{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+
 .images{
-    display: block;
-    margin-left: 70px;
-    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
     width: 1000px;
     overflow: hidden;
 }
@@ -54,6 +72,7 @@ h1{
     overflow: hidden;
     height: 1000px;
     width: 1000px;
+    margin-bottom: 10px;
 }
 
 .road{
@@ -61,6 +80,7 @@ h1{
     overflow: hidden;
     height: 1000px;
     width: 1000px;
+    margin-bottom: 10px;
 }
 
 .lake{
@@ -71,25 +91,26 @@ h1{
 }
 
 .bottom{
-    margin: auto;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .signoff{
     width: 700px;
     text-align: center;
-    margin-left: 205px;
-    font-size: 10px;
+    font-size: 10.5px;
     margin-bottom: 0px;
-    color: rgb(146, 145, 145);
+    color: rgb(90, 89, 89);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-self: center;
 }
 
 .sociallogo{
     object-fit: cover;
     justify-content: space-evenly;
-    margin-left: 497px;
     display: inline-block;
     margin-top: 17px;
+    align-self: center;
 }
 
 a:link{
