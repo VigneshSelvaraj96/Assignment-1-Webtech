@@ -11,9 +11,10 @@ body{
 {
     margin: auto;
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 70px;
+    margin-top: 40px;
     align-items: center;
-    width: 1000px;
+    width: 745px;
     align-self: center;
     flex-direction: column;
 }
@@ -21,17 +22,19 @@ body{
 
 .topcontent{
     border: 2px;
-    width: 700px;
+    width: 630px;
     text-align: center;
-    border-style: solid;
+    border-style:double;
     align-self:center;
+    margin-bottom: 10px;
+    height: 127px;
 
 }
 
 
 span{
-    margin-right: 8px;
-    margin-left: 8px;
+    margin-right: 12px;
+    margin-left: 12px;
 }
 
 .links
@@ -41,18 +44,19 @@ span{
     color: grey;
     justify-content: space-evenly;
     margin-bottom: 30px;
-    text-decoration: none; 
+    text-decoration: none;
+    margin-left: 10px; 
 }
 
 
-h1{
-    margin-top: 30px;
-    margin-bottom: 0px;
+.toptext{
+    margin-top: 20px;
+    margin-bottom: 7px;
+    font-family: Georgia, serif;
+    font-size: 53px;
+    font-style: bold;
 }
 
-.Table{
-    font-size: x-large;
-}
 
 .bottomcontent{
     display: flex;
@@ -63,31 +67,32 @@ h1{
 .images{
     display: flex;
     flex-direction: column;
-    width: 1000px;
+    width: 745px;
     overflow: hidden;
+    align-self: center;
 }
 
 .pier{
     object-fit: cover;
     overflow: hidden;
-    height: 1000px;
-    width: 1000px;
-    margin-bottom: 10px;
+    height: 745px;
+    width: 745px;
+    margin-bottom: 8px;
 }
 
 .road{
     object-fit: cover;
     overflow: hidden;
-    height: 1000px;
-    width: 1000px;
-    margin-bottom: 10px;
+    height: 745px;
+    width: 745px;
+    margin-bottom: 8px;
 }
 
 .lake{
     object-fit: cover;
     overflow: hidden;
-    height: 1000px;
-    width: 1000px;
+    height: 745px;
+    width: 745px;
 }
 
 .bottom{
@@ -98,19 +103,34 @@ h1{
 .signoff{
     width: 700px;
     text-align: center;
-    font-size: 10.5px;
+    font-size: 8.2px;
     margin-bottom: 0px;
-    color: rgb(90, 89, 89);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(117, 115, 115);
+    font-family: Georgia, serif;
+    font-style: italic;
     align-self: center;
+    margin-top: 40px;
 }
 
 .sociallogo{
     object-fit: cover;
-    justify-content: space-evenly;
-    display: inline-block;
+    display: inline;
     margin-top: 17px;
     align-self: center;
+    margin-left: 16px;
+    margin-bottom: 20px;
+}
+
+#fb{
+    margin-right: 15px;
+}
+
+#twitter{
+    margin-right: 15px;
+}
+
+#insta{
+    margin-right: 15px;
 }
 
 a:link{
