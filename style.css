@@ -14,7 +14,7 @@
     margin-bottom: 75px;
     margin-top: 30px;
     align-items: center;
-    width: 745px;
+    width: 705px;
     align-self: center;
     flex-direction: column;
 }
@@ -101,8 +101,8 @@ a:visited {
 .lake{
     object-fit: cover;
     overflow: hidden;
-    height: 700px;
-    width: 700px;
+    height: 705px;
+    width: 705px;
 }
 
 .bottom{
